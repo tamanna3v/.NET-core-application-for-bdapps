@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  ht.pbchecker.api:
+    image: ht.pbchecker.api
+    build:
+      context: .
+      dockerfile: src\AspnetCoreEFCoreExample\Dockerfile

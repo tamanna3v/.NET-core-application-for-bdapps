@@ -1,0 +1,10 @@
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\bin\Debug\netcoreapp2.0\HT.CheckerApp.API.deps.json
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\bin\Debug\netcoreapp2.0\HT.CheckerApp.API.runtimeconfig.json
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\bin\Debug\netcoreapp2.0\HT.CheckerApp.API.runtimeconfig.dev.json
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\bin\Debug\netcoreapp2.0\HT.CheckerApp.API.dll
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\bin\Debug\netcoreapp2.0\HT.CheckerApp.API.pdb
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\obj\Debug\netcoreapp2.0\HT.CheckerApp.API.csproj.CoreCompileInputs.cache
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\obj\Debug\netcoreapp2.0\HT.CheckerApp.API.AssemblyInfoInputs.cache
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\obj\Debug\netcoreapp2.0\HT.CheckerApp.API.AssemblyInfo.cs
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\obj\Debug\netcoreapp2.0\HT.CheckerApp.API.dll
+E:\Tamanna\Development\HT.CheckerApp\src\HT.CheckerApp\obj\Debug\netcoreapp2.0\HT.CheckerApp.API.pdb
