@@ -24,20 +24,7 @@ namespace HT.CheckerApp.API.Models.Common
             this.SubscriptionChargeAmount = Configuration.GetSection("BDApps:SubscriptionChargeAmount").Value;
             this.SmsChargeAmount = Configuration.GetSection("BDApps:SmsChargeAmount").Value;
 
-            this.MenuLevel1 = "Input your prizebond numbers (Max 2 numbers or 1 series) (Ex:PBC 123456,524545 or PBC 125501-125560)";
-            this.MenuLevel2 = "1. Subscribe (2.44 BDT/3month per draw)\r\n" +
-                              "2. Unsubscribe\r\n" +
-                              "3. Add more\r\n" +
-                              "0. Exit";
-            this.MenuLevel3 = "To confirm subscription, Press 1\r\n" +
-                              "0. Exit";
-            this.SMSLevel1 = "To get auto result (2.44 BDT/draw) type PBC SUB and send to 21213)";
-
-            this.MenuLevel4 = "To confirm unsubscription, Press 1\r\n" +
-                              "0. Exit";
-            this.SubscriptionConfirmMsg = "Thanks for subscription. We will notify you every 3 months after draw.\r\n";
-            this.UnSubscriptionConfirmMsg = "You have unsubscribed successfully.\r\n";
-            this.UnSubscriptionMsg = "To unsubscribe, type PBC UNSUB and send to 21213";
+          
         }
 
         public string USSDDialNo
