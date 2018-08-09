@@ -176,26 +176,7 @@ namespace HT.CheckerApp.API.Models
         private string CheckPBNumbers(string pbNumbers)
         {
             string message = string.Empty;
-            string drawMessage = string.Empty;
-            pbNumbers =(pbNumbers.ToUpper().Contains(_configurationHelper.SmsKeyword))? pbNumbers.Substring(4).Trim(): pbNumbers;
 
-            var drawResult = _pbDrawResultRepository.Match(pbNumbers);
-
-            if (drawResult.Count > 0)
-            {
-                message = string.Format("Congratulations!{0} match found!", drawResult.Count);
-
-                foreach (var draw in drawResult)
-                {
-                    drawMessage = drawMessage + string.Format("\r\n Number:{0},Prize:{1},Amount:{2},Draw:{3}", draw.PBNo, draw.Prize, draw.PrizeValue, draw.Draw);
-                }
-
-                message = message + drawMessage;
-            }
-            else
-            {
-                message =string.Format("No match found! Please try on next draw ({0}).",_configurationHelper.FindNextDrawDate());
-            }
             return message;
         }
 
